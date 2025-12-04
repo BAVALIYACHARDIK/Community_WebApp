@@ -3,7 +3,7 @@ package com.example.redditclone.service;
 import com.example.redditclone.dto.AuthenticationResponse;
 import com.example.redditclone.dto.LoginRequest;
 import com.example.redditclone.dto.RegisterRequest;
-import com.example.redditclone.exception.SpringRedditException;
+import com.example.redditclone.exception.CommunityWebAppException;
 import com.example.redditclone.model.User;
 import com.example.redditclone.repository.UserRepository;
 import com.example.redditclone.security.JwtProvider;
@@ -31,12 +31,12 @@ public class AuthService {
     public void signup(RegisterRequest registerRequest) {
         // Check if username already exists
         if (userRepository.existsByUsername(registerRequest.getUsername())) {
-            throw new SpringRedditException("Username already exists");
+            throw new CommunityWebAppException("Username already exists");
         }
         
         // Check if email already exists
         if (userRepository.existsByEmail(registerRequest.getEmail())) {
-            throw new SpringRedditException("Email already exists");
+            throw new CommunityWebAppException("Email already exists");
         }
 
         User user = new User();
