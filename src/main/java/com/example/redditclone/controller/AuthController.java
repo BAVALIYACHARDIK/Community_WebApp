@@ -1,5 +1,7 @@
 package com.example.redditclone.controller;
 
+import com.example.redditclone.dto.AuthenticationResponse;
+import com.example.redditclone.dto.LoginRequest;
 import com.example.redditclone.dto.RegisterRequest;
 import com.example.redditclone.service.AuthService;
 import jakarta.validation.Valid;
@@ -19,5 +21,11 @@ public class AuthController {
     public ResponseEntity<String> signup(@Valid @RequestBody RegisterRequest registerRequest) {
         authService.signup(registerRequest);
         return new ResponseEntity<>("User Registration Successful", HttpStatus.CREATED);
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<AuthenticationResponse> login(@Valid @RequestBody LoginRequest loginRequest) {
+        AuthenticationResponse response = authService.login(loginRequest);
+        return ResponseEntity.ok(response);
     }
 }

@@ -181,6 +181,14 @@
     </div>
 
     <script>
+        // Check if user is already logged in - redirect to dashboard
+        window.addEventListener('DOMContentLoaded', () => {
+            const token = localStorage.getItem('jwtToken');
+            if (token) {
+                window.location.href = '/dashboard.html';
+            }
+        });
+
         document.getElementById('signupForm').addEventListener('submit', async function(e) {
             e.preventDefault();
 
