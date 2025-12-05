@@ -1,4 +1,4 @@
-CREATE DATABASE reddit_db;
+CREATE DATABASE community_webapp_db;
 EXIT;HELP.md
 .gradle
 build/

@@ -1,12 +1,12 @@
-package com.example.redditclone.service;
+package com.example.community_webapp.service;
 
-import com.example.redditclone.dto.AuthenticationResponse;
-import com.example.redditclone.dto.LoginRequest;
-import com.example.redditclone.dto.RegisterRequest;
-import com.example.redditclone.exception.CommunityWebAppException;
-import com.example.redditclone.model.User;
-import com.example.redditclone.repository.UserRepository;
-import com.example.redditclone.security.JwtProvider;
+import com.example.community_webapp.dto.AuthenticationResponse;
+import com.example.community_webapp.dto.LoginRequest;
+import com.example.community_webapp.dto.RegisterRequest;
+import com.example.community_webapp.exception.CommunityWebAppException;
+import com.example.community_webapp.model.User;
+import com.example.community_webapp.repository.UserRepository;
+import com.example.community_webapp.security.JwtProvider;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

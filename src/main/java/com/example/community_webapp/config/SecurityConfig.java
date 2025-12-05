@@ -1,6 +1,6 @@
-package com.example.redditclone.config;
+package com.example.community_webapp.config;
 
-import com.example.redditclone.security.JwtAuthenticationFilter;
+import com.example.community_webapp.security.JwtAuthenticationFilter;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

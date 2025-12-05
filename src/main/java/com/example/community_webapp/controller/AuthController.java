@@ -1,9 +1,9 @@
-package com.example.redditclone.controller;
+package com.example.community_webapp.controller;
 
-import com.example.redditclone.dto.AuthenticationResponse;
-import com.example.redditclone.dto.LoginRequest;
-import com.example.redditclone.dto.RegisterRequest;
-import com.example.redditclone.service.AuthService;
+import com.example.community_webapp.dto.AuthenticationResponse;
+import com.example.community_webapp.dto.LoginRequest;
+import com.example.community_webapp.dto.RegisterRequest;
+import com.example.community_webapp.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

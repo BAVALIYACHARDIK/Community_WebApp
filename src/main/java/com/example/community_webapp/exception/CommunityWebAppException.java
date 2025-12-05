@@ -1,4 +1,4 @@
-package com.example.redditclone.exception;
+package com.example.community_webapp.exception;
 
 public class CommunityWebAppException extends RuntimeException {
     public CommunityWebAppException(String message) {

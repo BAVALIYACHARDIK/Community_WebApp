@@ -1,4 +1,4 @@
-package com.example.redditclone.security;
+package com.example.community_webapp.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

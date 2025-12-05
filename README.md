@@ -68,7 +68,7 @@ The application will start on `http://localhost:8080`
 
 ```
 community-webapp/
-├── src/main/java/com/example/redditclone/
+├── src/main/java/com/example/communitywebapp/
 │   ├── config/         # Security and app configuration
 │   ├── controller/     # REST API endpoints
 │   ├── dto/            # Data Transfer Objects

@@ -1,6 +1,6 @@
-package com.example.redditclone.repository;
+package com.example.community_webapp.repository;
 
-import com.example.redditclone.model.User;
+import com.example.community_webapp.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

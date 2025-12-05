@@ -1,7 +1,7 @@
-package com.example.redditclone.service;
+package com.example.community_webapp.service;
 
-import com.example.redditclone.model.User;
-import com.example.redditclone.repository.UserRepository;
+import com.example.community_webapp.model.User;
+import com.example.community_webapp.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

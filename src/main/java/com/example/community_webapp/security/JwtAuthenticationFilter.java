@@ -1,4 +1,4 @@
-package com.example.redditclone.security;
+package com.example.community_webapp.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

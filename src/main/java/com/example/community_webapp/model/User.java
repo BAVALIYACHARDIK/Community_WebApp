@@ -1,4 +1,4 @@
-package com.example.redditclone.model;
+package com.example.community_webapp.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
